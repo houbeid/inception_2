@@ -15,7 +15,7 @@ CMD = docker-compose -f srcs/docker-compose.yml
 all:
 	${CMD} up -d
 up:
-	${CMD} up -d
+	${CMD} up 
 down:
 	${CMD} down
 build:
